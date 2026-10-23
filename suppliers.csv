@@ -1,0 +1,6 @@
+supplier_id,supplier_name,supplier_type,transport_mode,service_description
+SUP-UTIL-01,"Najd Grid Power Co. (fictional, synthetic)",electricity_utility,not_applicable,Grid electricity supplied to the facility meter; company pays per invoice.
+SUP-FUEL-01,"Al-Wadi Fuels Trading (fictional, synthetic)",fuel_supplier,not_applicable,Delivers diesel to facility tanks for company-operated stationary backup generators; company pays.
+SUP-CARR-A,"Carrier A Logistics (fictional, synthetic)",freight_carrier,road,Outbound road freight; carrier-owned and carrier-operated trucks; reporting company pays (Scope 3 Cat. 4).
+SUP-CARR-B,"Carrier B Transport (fictional, synthetic)",freight_carrier,road,Outbound road freight; carrier-owned and carrier-operated trucks; reporting company pays (Scope 3 Cat. 4). No activity data supplied.
+SUP-CARR-C,"Carrier C Haulage (fictional, synthetic)",freight_carrier,road,Outbound road freight; carrier-owned and carrier-operated trucks; reporting company pays (Scope 3 Cat. 4).

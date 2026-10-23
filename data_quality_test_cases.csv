@@ -1,0 +1,23 @@
+test_case_id,rule_id,activity_id,description,original_value,corrupted_value,expected_outcome,expected_flag,also_expected,actual_outcome,actual_flags,test_result
+TC-01,DQ-01,ACT-FRT-C-202505,Contractor C May quantity removed (status consistently 'missing'),quantity=57500; data_status=reported,quantity=(empty); data_status=missing,WARN,DQ-01,,WARN,DQ-01:WARN,PASS
+TC-02,DQ-02,ACT-DSL-202502,Second record re-uses activity_id ACT-DSL-202502 (supplementary invoice),(no record),appended copy of ACT-DSL-202502: activity_source_id=FINV-DSL-2025-02-SUPP; quantity=7000; evidence_id=EVD-T002,BLOCK,DQ-02,,BLOCK,DQ-02:BLOCK,PASS
+TC-03,DQ-03,ACT-FRT-A-202506-DUP,Exact duplicate of Carrier A June statement under a new ID,(no record),appended copy of ACT-FRT-A-202506: activity_id=ACT-FRT-A-202506-DUP,BLOCK,DQ-03,,BLOCK,DQ-03:BLOCK,PASS
+TC-04,DQ-03,ACT-FRT-C-202507-R,"Re-sent Carrier C July statement: same quantity and evidence, new source number",(no record),appended copy of ACT-FRT-C-202507: activity_id=ACT-FRT-C-202507-R; activity_source_id=STMT-C-2025-07-RESENT,WARN,DQ-03,,WARN,DQ-03:WARN,PASS
+TC-05,DQ-04,ACT-ELE-202508,Period '2025-13' is not a valid month,period=2025-08,period=2025-13,BLOCK,DQ-04,,BLOCK,DQ-04:BLOCK,PASS
+TC-06,DQ-04,ACT-DSL-202511,Period '2024-11' is outside the 2025 reporting year,period=2025-11,period=2024-11,BLOCK,DQ-04,,BLOCK,DQ-04:BLOCK,PASS
+TC-07,DQ-05,ACT-DSL-202503,Negative diesel quantity,quantity=7600,quantity=-7600,BLOCK,DQ-05,,BLOCK,DQ-05:BLOCK,PASS
+TC-08,DQ-06,ACT-DSL-202504,Diesel unit 'gal' is not an approved unit,unit=L,unit=gal,BLOCK,DQ-06,,BLOCK,DQ-06:BLOCK,PASS
+TC-09,DQ-06,ACT-ELE-202502,"Electricity reported in kWh: approved scale conversion to MWh, logged",unit=MWh; quantity=540,unit=kWh; quantity=540000,WARN,DQ-06,,WARN,DQ-06:WARN,PASS
+TC-10,DQ-07,ACT-FRT-C-202509,Freight record without supplier_id,supplier_id=SUP-CARR-C,supplier_id=(empty),BLOCK,DQ-07,,BLOCK,DQ-07:BLOCK,PASS
+TC-11,DQ-07,ACT-ELE-202509,Electricity supplier_id not in supplier register,supplier_id=SUP-UTIL-01,supplier_id=SUP-UTIL-99,WARN,DQ-07,,WARN,DQ-07:WARN,PASS
+TC-12,DQ-08,ACT-FRT-A-202510,factor_id not in factor register,factor_id=FAC-FRT-ROAD-01,factor_id=FAC-FRT-ROAD-99,BLOCK,DQ-08,,BLOCK,DQ-08:BLOCK,PASS
+TC-13,DQ-09,ACT-FRT-A-202511,Freight record assigned electricity factor (kg CO2e/MWh vs tonne-km),factor_id=FAC-FRT-ROAD-01,factor_id=FAC-ELEC-SEC-01,BLOCK,DQ-09,DQ-13 BLOCK (grid_generation boundary on freight),BLOCK,DQ-09:BLOCK;DQ-13:BLOCK,PASS
+TC-14,DQ-10,ACT-DSL-202506,evidence_id not found in provenance register,evidence_id=EVD-0018,evidence_id=EVD-9999,BLOCK,DQ-10,,BLOCK,DQ-10:BLOCK,PASS
+TC-15,DQ-10,ACT-DSL-202507,evidence_id left blank,evidence_id=EVD-0019,evidence_id=(empty),WARN,DQ-10,,WARN,DQ-10:WARN,PASS
+TC-16,DQ-11,ACT-ELE-202510,"Electricity October set to 2,660 MWh (about 4x normal)",quantity=665,quantity=2660,WARN,DQ-11,,WARN,DQ-11:WARN,PASS
+TC-17,DQ-12,ACT-FRT-C-202503,Carrier C March marked as estimated,data_status=reported; evidence_id=EVD-0051,data_status=estimated; evidence_id=EVD-T017,WARN,DQ-12,,WARN,DQ-12:WARN,PASS
+TC-18,DQ-13,ACT-DSL-202508,Stationary diesel assigned road-freight vehicle factor (boundary incompatible),factor_id=FAC-DSL-COMB-01,factor_id=FAC-FRT-ROAD-01,BLOCK,DQ-13,DQ-09 BLOCK (tonne-km factor vs L),BLOCK,DQ-09:BLOCK;DQ-13:BLOCK,PASS
+TC-19,DQ-14,ACT-FRT-B-202504,Contractor B April: quantity empty but data_status = 'reported',data_status=missing,data_status=reported,BLOCK,DQ-14,DQ-01 WARN (empty quantity),BLOCK,DQ-01:WARN;DQ-14:BLOCK,PASS
+TC-20,DQ-14,ACT-ELE-202512,Electricity December: quantity present but data_status = 'missing',data_status=reported,data_status=missing,BLOCK,DQ-14,,BLOCK,DQ-14:BLOCK,PASS
+TC-21,DQ-15,ACT-FRT-A-202512,source_origin = 'real_company' in a synthetic-only prototype,source_origin=synthetic,source_origin=real_company,BLOCK,DQ-15,,BLOCK,DQ-15:BLOCK,PASS
+TC-22,DQ-16,ACT-FRT-C-202512,Freight record classified as scope 1,scope=3,scope=1,BLOCK,DQ-16,,BLOCK,DQ-16:BLOCK,PASS
