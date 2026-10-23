@@ -1,0 +1,17 @@
+variable,level,value,unit,favourable_to_switching,comparable,avoided_t,reduction_pct,direction,annual_cost_difference,npv,annual_cost_per_t,lifetime_cost_per_t,breakeven_alt_cost,alt_on_time,delta_npv,delta_avoided_t
+alternative_ef,low,0.06,kgCO2e/tonne-km,lower,True,60,0.5,reduction,20000,-184434.698584,333.333333,398.085621,296114.862751,97,0,20
+alternative_ef,high,0.1,kgCO2e/tonne-km,lower,True,20,0.166667,reduction,20000,-184434.698584,1000,1194.256862,296114.862751,97,0,-20
+current_ef,low,0.11,kgCO2e/tonne-km,higher,True,30,0.272727,reduction,20000,-184434.698584,666.666667,796.171242,296114.862751,97,0,-10
+current_ef,high,0.13,kgCO2e/tonne-km,higher,True,50,0.384615,reduction,20000,-184434.698584,400,477.702745,296114.862751,97,0,10
+demand_tonne_km,low,900000,tonne-km/yr,ambiguous (more tCO2e avoided and larger cost difference),True,36,0.333333,reduction,18000,-168991.228725,500,607.920479,295683.180834,97,15443.469858,-4
+demand_tonne_km,high,1100000,tonne-km/yr,ambiguous (more tCO2e avoided and larger cost difference),True,44,0.333333,reduction,22000,-199878.168442,500,588.298574,296468.057046,97,-15443.469858,4
+alternative_annual_cost,low,290000,SAR/yr,lower,True,40,0.333333,reduction,-10000,47217.349292,-250,-152.871569,296114.862751,97,231652.047876,0
+alternative_annual_cost,high,350000,SAR/yr,lower,True,40,0.333333,reduction,50000,-416086.746459,1250,1347.128431,296114.862751,97,-231652.047876,0
+switching_cost,low,15000,SAR one-time,lower,True,40,0.333333,reduction,20000,-169434.698584,500,548.564216,298057.431376,97,15000,0
+switching_cost,high,60000,SAR one-time,lower,True,40,0.333333,reduction,20000,-214434.698584,500,694.256862,292229.725502,97,-30000,0
+monitoring_cost,low,0,SAR/yr,lower,True,40,0.333333,reduction,20000,-184434.698584,500,597.128431,296114.862751,97,0,0
+monitoring_cost,high,10000,SAR/yr,lower,True,40,0.333333,reduction,30000,-261652.047876,750,847.128431,286114.862751,97,-77217.349292,0
+implementation_delay,low,0,years,ambiguous (shifts both costs and avoided emissions later),True,40,0.333333,reduction,20000,-184434.698584,500,597.128431,296114.862751,97,0,0
+implementation_delay,high,1,years,ambiguous (shifts both costs and avoided emissions later),True,40,0.333333,reduction,20000,-165387.079536,500,610.793438,295568.262481,97,19047.619048,0
+alternative_on_time,low,95,% on-time,higher,True,40,0.333333,reduction,20000,-184434.698584,500,597.128431,296114.862751,95,0,0
+alternative_on_time,high,98,% on-time,higher,True,40,0.333333,reduction,20000,-184434.698584,500,597.128431,296114.862751,98,0,0

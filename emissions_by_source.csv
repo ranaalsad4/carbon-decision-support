@@ -1,0 +1,6 @@
+scope,scope3_category,stream,activity_type,supplier_id,factor_id,unit,emissions_unit,records,records_with_data,records_missing,records_blocked,activity_total,emissions_t,status
+1,,Diesel generators,diesel_stationary,SUP-FUEL-01,FAC-DSL-COMB-01,L,tCO2e,12,12,0,0,100000,266.155,COMPLETE
+2,,Grid electricity,electricity_purchased,SUP-UTIL-01,FAC-ELEC-SEC-01,MWh,tCO2e,12,12,0,0,8000,4400,COMPLETE
+3,4,Freight - Contractor A,freight_road_outbound,SUP-CARR-A,FAC-FRT-ROAD-01,tonne-km,tCO2e,12,12,0,0,1200000,121.956,COMPLETE
+3,4,Freight - Contractor B,freight_road_outbound,SUP-CARR-B,FAC-FRT-ROAD-01,tonne-km,tCO2e,12,0,12,0,UNAVAILABLE,UNAVAILABLE,UNAVAILABLE
+3,4,Freight - Contractor C,freight_road_outbound,SUP-CARR-C,FAC-FRT-ROAD-01,tonne-km,tCO2e,12,12,0,0,700000,71.141,COMPLETE

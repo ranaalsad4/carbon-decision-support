@@ -1,0 +1,3 @@
+lane_id,current_offer,alternative_offer,comparable,limitations,substituted_tonne_km,current_ef,alternative_ef,current_emissions_t,alternative_emissions_t,avoided_t,reduction_pct,direction
+L1,OF-A-L1,OF-D-L1,True,,1000000,0.12,0.08,120,80,40,0.333333,reduction
+L1,OF-A-L1,OF-E-L1,True,,1000000,0.12,0.07,120,70,50,0.416667,reduction

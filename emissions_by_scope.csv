@@ -1,0 +1,4 @@
+scope,scope3_category,emissions_unit,emissions_t,sources_quantified,sources_unavailable,status
+1,,tCO2e,266.155,1,0,COMPLETE
+2,,tCO2e,4400,1,0,COMPLETE
+3,4,tCO2e,193.097,2,1,INCOMPLETE (known-data subtotal)

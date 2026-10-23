@@ -1,0 +1,61 @@
+period,scope,stream,emissions_t,emissions_unit
+2025-01,1,Diesel generators,19.16316,tCO2e
+2025-01,3,Freight - Contractor A,9.807295,tCO2e
+2025-01,3,Freight - Contractor B,UNAVAILABLE,tCO2e
+2025-01,3,Freight - Contractor C,5.58965,tCO2e
+2025-01,2,Grid electricity,299.75,tCO2e
+2025-02,1,Diesel generators,18.364695,tCO2e
+2025-02,3,Freight - Contractor A,9.34996,tCO2e
+2025-02,3,Freight - Contractor B,UNAVAILABLE,tCO2e
+2025-02,3,Freight - Contractor C,5.437205,tCO2e
+2025-02,2,Grid electricity,297,tCO2e
+2025-03,1,Diesel generators,20.22778,tCO2e
+2025-03,3,Freight - Contractor A,10.56952,tCO2e
+2025-03,3,Freight - Contractor B,UNAVAILABLE,tCO2e
+2025-03,3,Freight - Contractor C,6.148615,tCO2e
+2025-03,2,Grid electricity,332.75,tCO2e
+2025-04,1,Diesel generators,21.558555,tCO2e
+2025-04,3,Freight - Contractor A,10.315445,tCO2e
+2025-04,3,Freight - Contractor B,UNAVAILABLE,tCO2e
+2025-04,3,Freight - Contractor C,5.99617,tCO2e
+2025-04,2,Grid electricity,365.75,tCO2e
+2025-05,1,Diesel generators,23.687795,tCO2e
+2025-05,3,Freight - Contractor A,10.06137,tCO2e
+2025-05,3,Freight - Contractor B,UNAVAILABLE,tCO2e
+2025-05,3,Freight - Contractor C,5.843725,tCO2e
+2025-05,2,Grid electricity,398.75,tCO2e
+2025-06,1,Diesel generators,26.08319,tCO2e
+2025-06,3,Freight - Contractor A,9.604035,tCO2e
+2025-06,3,Freight - Contractor B,UNAVAILABLE,tCO2e
+2025-06,3,Freight - Contractor C,5.640465,tCO2e
+2025-06,2,Grid electricity,431.75,tCO2e
+2025-07,1,Diesel generators,27.68012,tCO2e
+2025-07,3,Freight - Contractor A,9.1467,tCO2e
+2025-07,3,Freight - Contractor B,UNAVAILABLE,tCO2e
+2025-07,3,Freight - Contractor C,5.28476,tCO2e
+2025-07,2,Grid electricity,442.75,tCO2e
+2025-08,1,Diesel generators,28.21243,tCO2e
+2025-08,3,Freight - Contractor A,9.502405,tCO2e
+2025-08,3,Freight - Contractor B,UNAVAILABLE,tCO2e
+2025-08,3,Freight - Contractor C,5.48802,tCO2e
+2025-08,2,Grid electricity,442.75,tCO2e
+2025-09,1,Diesel generators,24.752415,tCO2e
+2025-09,3,Freight - Contractor A,10.46789,tCO2e
+2025-09,3,Freight - Contractor B,UNAVAILABLE,tCO2e
+2025-09,3,Freight - Contractor C,6.0978,tCO2e
+2025-09,2,Grid electricity,409.75,tCO2e
+2025-10,1,Diesel generators,21.2924,tCO2e
+2025-10,3,Freight - Contractor A,11.026855,tCO2e
+2025-10,3,Freight - Contractor B,UNAVAILABLE,tCO2e
+2025-10,3,Freight - Contractor C,6.40269,tCO2e
+2025-10,2,Grid electricity,365.75,tCO2e
+2025-11,1,Diesel generators,18.63085,tCO2e
+2025-11,3,Freight - Contractor A,11.1793,tCO2e
+2025-11,3,Freight - Contractor B,UNAVAILABLE,tCO2e
+2025-11,3,Freight - Contractor C,6.656765,tCO2e
+2025-11,2,Grid electricity,321.75,tCO2e
+2025-12,1,Diesel generators,16.50161,tCO2e
+2025-12,3,Freight - Contractor A,10.925225,tCO2e
+2025-12,3,Freight - Contractor B,UNAVAILABLE,tCO2e
+2025-12,3,Freight - Contractor C,6.555135,tCO2e
+2025-12,2,Grid electricity,291.5,tCO2e

@@ -1,0 +1,3 @@
+basis,efficiency_rate,switch_lane,switch_share,alternative_offer,alternative_ef,baseline_t,efficiency_only_t,switching_only_t,combined_t,efficiency_avoided_t,switching_avoided_t,combined_avoided_t,sum_of_separate_avoided_t,overlap_t,unavailable_rows
+decision,0.15,L1,1,OF-D-L1,0.08,211.467,179.74695,171.467,145.74695,31.72005,40,65.72005,71.72005,6,OF-B-L4
+inventory,0.15,L1,1,OF-D-L1,0.08,193.097,164.13245,171.467,145.74695,28.96455,21.63,47.35005,50.59455,3.2445,OF-B-L4

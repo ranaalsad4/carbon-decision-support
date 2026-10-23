@@ -1,0 +1,6 @@
+rank,stream,scope,emissions_t,emissions_unit,share_of_quantified_pct
+1,Grid electricity,2,4400,tCO2e,90.5
+2,Diesel generators,1,266.155,tCO2e,5.5
+3,Freight - Contractor A,3,121.956,tCO2e,2.5
+4,Freight - Contractor C,3,71.141,tCO2e,1.5
+-,Freight - Contractor B,3,UNAVAILABLE,tCO2e,UNAVAILABLE

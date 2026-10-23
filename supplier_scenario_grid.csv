@@ -1,0 +1,73 @@
+alternative_ef,alternative_annual_cost,avoided_t,npv,lifetime_cost_per_t,zone
+0.05,280000,70,124434.698584,-230.212325,Carbon and financial gain
+0.05,290000,70,47217.349292,-87.355182,Carbon and financial gain
+0.05,300000,70,-30000,55.501961,Carbon gain at net cost (management judgement)
+0.05,310000,70,-107217.349292,198.359104,Carbon gain at net cost (management judgement)
+0.05,320000,70,-184434.698584,341.216246,Carbon gain at net cost (management judgement)
+0.05,330000,70,-261652.047876,484.073389,Carbon gain at net cost (management judgement)
+0.05,340000,70,-338869.397167,626.930532,Carbon gain at net cost (management judgement)
+0.05,350000,70,-416086.746459,769.787675,Carbon gain at net cost (management judgement)
+0.06,280000,60,124434.698584,-268.581046,Carbon and financial gain
+0.06,290000,60,47217.349292,-101.914379,Carbon and financial gain
+0.06,300000,60,-30000,64.752287,Carbon gain at net cost (management judgement)
+0.06,310000,60,-107217.349292,231.418954,Carbon gain at net cost (management judgement)
+0.06,320000,60,-184434.698584,398.085621,Carbon gain at net cost (management judgement)
+0.06,330000,60,-261652.047876,564.752287,Carbon gain at net cost (management judgement)
+0.06,340000,60,-338869.397167,731.418954,Carbon gain at net cost (management judgement)
+0.06,350000,60,-416086.746459,898.085621,Carbon gain at net cost (management judgement)
+0.07,280000,50,124434.698584,-322.297255,Carbon and financial gain
+0.07,290000,50,47217.349292,-122.297255,Carbon and financial gain
+0.07,300000,50,-30000,77.702745,Carbon gain at net cost (management judgement)
+0.07,310000,50,-107217.349292,277.702745,Carbon gain at net cost (management judgement)
+0.07,320000,50,-184434.698584,477.702745,Carbon gain at net cost (management judgement)
+0.07,330000,50,-261652.047876,677.702745,Carbon gain at net cost (management judgement)
+0.07,340000,50,-338869.397167,877.702745,Carbon gain at net cost (management judgement)
+0.07,350000,50,-416086.746459,1077.702745,Carbon gain at net cost (management judgement)
+0.08,280000,40,124434.698584,-402.871569,Carbon and financial gain
+0.08,290000,40,47217.349292,-152.871569,Carbon and financial gain
+0.08,300000,40,-30000,97.128431,Carbon gain at net cost (management judgement)
+0.08,310000,40,-107217.349292,347.128431,Carbon gain at net cost (management judgement)
+0.08,320000,40,-184434.698584,597.128431,Carbon gain at net cost (management judgement)
+0.08,330000,40,-261652.047876,847.128431,Carbon gain at net cost (management judgement)
+0.08,340000,40,-338869.397167,1097.128431,Carbon gain at net cost (management judgement)
+0.08,350000,40,-416086.746459,1347.128431,Carbon gain at net cost (management judgement)
+0.09,280000,30,124434.698584,-537.162092,Carbon and financial gain
+0.09,290000,30,47217.349292,-203.828758,Carbon and financial gain
+0.09,300000,30,-30000,129.504575,Carbon gain at net cost (management judgement)
+0.09,310000,30,-107217.349292,462.837908,Carbon gain at net cost (management judgement)
+0.09,320000,30,-184434.698584,796.171242,Carbon gain at net cost (management judgement)
+0.09,330000,30,-261652.047876,1129.504575,Carbon gain at net cost (management judgement)
+0.09,340000,30,-338869.397167,1462.837908,Carbon gain at net cost (management judgement)
+0.09,350000,30,-416086.746459,1796.171242,Carbon gain at net cost (management judgement)
+0.1,280000,20,124434.698584,-805.743138,Carbon and financial gain
+0.1,290000,20,47217.349292,-305.743138,Carbon and financial gain
+0.1,300000,20,-30000,194.256862,Carbon gain at net cost (management judgement)
+0.1,310000,20,-107217.349292,694.256862,Carbon gain at net cost (management judgement)
+0.1,320000,20,-184434.698584,1194.256862,Carbon gain at net cost (management judgement)
+0.1,330000,20,-261652.047876,1694.256862,Carbon gain at net cost (management judgement)
+0.1,340000,20,-338869.397167,2194.256862,Carbon gain at net cost (management judgement)
+0.1,350000,20,-416086.746459,2694.256862,Carbon gain at net cost (management judgement)
+0.11,280000,10,124434.698584,-1611.486275,Carbon and financial gain
+0.11,290000,10,47217.349292,-611.486275,Carbon and financial gain
+0.11,300000,10,-30000,388.513725,Carbon gain at net cost (management judgement)
+0.11,310000,10,-107217.349292,1388.513725,Carbon gain at net cost (management judgement)
+0.11,320000,10,-184434.698584,2388.513725,Carbon gain at net cost (management judgement)
+0.11,330000,10,-261652.047876,3388.513725,Carbon gain at net cost (management judgement)
+0.11,340000,10,-338869.397167,4388.513725,Carbon gain at net cost (management judgement)
+0.11,350000,10,-416086.746459,5388.513725,Carbon gain at net cost (management judgement)
+0.12,280000,0,124434.698584,,No carbon benefit
+0.12,290000,0,47217.349292,,No carbon benefit
+0.12,300000,0,-30000,,No carbon benefit
+0.12,310000,0,-107217.349292,,No carbon benefit
+0.12,320000,0,-184434.698584,,No carbon benefit
+0.12,330000,0,-261652.047876,,No carbon benefit
+0.12,340000,0,-338869.397167,,No carbon benefit
+0.12,350000,0,-416086.746459,,No carbon benefit
+0.13,280000,-10,124434.698584,,No carbon benefit
+0.13,290000,-10,47217.349292,,No carbon benefit
+0.13,300000,-10,-30000,,No carbon benefit
+0.13,310000,-10,-107217.349292,,No carbon benefit
+0.13,320000,-10,-184434.698584,,No carbon benefit
+0.13,330000,-10,-261652.047876,,No carbon benefit
+0.13,340000,-10,-338869.397167,,No carbon benefit
+0.13,350000,-10,-416086.746459,,No carbon benefit

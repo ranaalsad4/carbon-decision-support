@@ -1,0 +1,14 @@
+case,action,rule,robust_overall
+Base,NO DEFENSIBLE RECOMMENDATION YET,R6,False
+alternative_ef low (0.06),NO DEFENSIBLE RECOMMENDATION YET,R6,False
+alternative_ef high (0.1),NO DEFENSIBLE RECOMMENDATION YET,R6,False
+current_ef low (0.11),NO DEFENSIBLE RECOMMENDATION YET,R6,False
+current_ef high (0.13),NO DEFENSIBLE RECOMMENDATION YET,R6,False
+alternative_annual_cost low (290000),CONSIDER SWITCHING,R5,False
+alternative_annual_cost high (350000),NO DEFENSIBLE RECOMMENDATION YET,R6,False
+switching_cost low (15000),NO DEFENSIBLE RECOMMENDATION YET,R6,False
+switching_cost high (60000),NO DEFENSIBLE RECOMMENDATION YET,R6,False
+monitoring_cost low (0),NO DEFENSIBLE RECOMMENDATION YET,R6,False
+monitoring_cost high (10000),NO DEFENSIBLE RECOMMENDATION YET,R6,False
+implementation_delay low (0),NO DEFENSIBLE RECOMMENDATION YET,R6,False
+implementation_delay high (1),NO DEFENSIBLE RECOMMENDATION YET,R6,False

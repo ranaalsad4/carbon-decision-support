@@ -1,0 +1,4 @@
+case,comparable,avoided_t,reduction_pct,direction,annual_cost_difference,npv,annual_cost_per_t,lifetime_cost_per_t,breakeven_alt_cost,alt_on_time,values
+Unfavourable to switching,True,10,0.090909,reduction,60000,-523304.095751,6000,6777.02745,282229.725502,95,alternative_ef=0.1; current_ef=0.11; alternative_annual_cost=350000; switching_cost=60000; monitoring_cost=10000; alternative_on_time=95
+Base,True,40,0.333333,reduction,20000,-184434.698584,500,597.128431,296114.862751,97,
+Favourable to switching,True,70,0.538462,reduction,-10000,62217.349292,-142.857143,-115.106163,298057.431376,98,alternative_ef=0.06; current_ef=0.13; alternative_annual_cost=290000; switching_cost=15000; monitoring_cost=0; alternative_on_time=98

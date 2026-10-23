@@ -1,0 +1,33 @@
+{
+  "engine_version": "P11-1.0",
+  "inputs": {
+    "Phase11_Supplier_Decision_Assumptions_Register.xlsx": "5d989ab12874d2c4271e2fa44baffb84992df4c578679f00f398ca97c874c853",
+    "phase4/data/activity_data_clean.csv": "19b064a894dfa58f5662eb073c814f58dd1840df3a02d96a0b9f481273ae2df2",
+    "phase4/data/emission_factors.csv": "f9761c43865a5f22ba1c0e8f77f3671cdf30bed36adf7c40067728cc65198692",
+    "phase4/data/suppliers.csv": "7f7a7165643c98d964f4964f4a7c5cf3ac098b8d877f8619055691e08531812b",
+    "phase4/data/provenance_register.csv": "0535360c0ecb5991d0c6774be8c28bb21ac4546239b928fab34c7d05dbbf8d8d"
+  },
+  "outputs": {
+    "activity_ledger.csv": "e30c6571f5a2d4f754f7642d32ecc3472ec51f47f8560429fc2a322a8cb4b510",
+    "activity_ledger_summary.csv": "36e59c500a9149c3e5833f352292c50747cd777249a9b7a963e39081d3946625",
+    "carbon_comparison.csv": "a2dcae3ebe2d2e6c6f594549bb8ba9443882b2aae84af0627eb80ed2ec175db8",
+    "engagement_action_plans.csv": "de7b4723ed67a6df645b36aebd93f626f48efecad7a23c7d3e9cea06160a198d",
+    "monitoring_scorecard.csv": "b989015f5514346b4a73b40cfaa08a6e1307577ef4014959cdc3a0ca7907aa33",
+    "recommendation_robustness.csv": "1965e7aed67fbdeaa5f575c7482aa63f0aff9a76b64fa793bffc7eb5ae96df3e",
+    "supplier_audit_trail.csv": "52c2fd15da1660d082d7f9d0473a603d482ab713c8c365cd4d73829aaa0a6b21",
+    "supplier_breakeven.csv": "cd1b075762e11c1cba6b4e8fe8a1ad34d25e68e9cbee76e4dbff45a0e865824e",
+    "supplier_comparison.csv": "20d8a353a2a2537addb7a09b49011eddafe1f16c91200b8868ee24ccfc6e8216",
+    "supplier_data_quality.csv": "e50e5480af0dfa033e54235ea6a7e34fbb662a34b487701a1098da7d9a0e8c67",
+    "supplier_engagement_matrix.csv": "64c814a4cbc8b67c3bbdc900e5f85c1b92709b459fcd6d83c1b5dba7146be007",
+    "supplier_ranking_reversals.csv": "0b70afe155a3ca59ae70d2e4047f7ec60134b57f9db2337a56d79d46dbf2d16d",
+    "supplier_recommendations.csv": "6201a936feeb65b99c2df0fc485047fc8289ff8d92306cb9cd8a021dad6a5b6b",
+    "supplier_scenario_grid.csv": "7297291db00bb02b8c2215e391e771b11ba1929e3fc533d6120631297b4f9cea",
+    "supplier_scores.csv": "a2300f5f72d9b5c0e0a17f842ca8067f2b791035ead6febcc9ef7b6c5f3e160c",
+    "supplier_screening.csv": "e3cdbd4bfcd4e541465267647fc0ec39876dbfea4fb315dec9502a32ac427d29",
+    "supplier_uncertainty_cases.csv": "3590afd152d72bf687538a30cd452b033ee47ec4959532df5b6e57370a5511ae",
+    "supplier_uncertainty_oneway.csv": "7d42485a9466542d8d26159328c629e76f3e83ceafca718a28424650a24c6d21",
+    "switching_financials.csv": "10e03e0890d19aae3e247e58815a8199086b23794cae8dad2d37456281945a79",
+    "validation_issues.csv": "76033ebc6c6de38f9c2b3cd6cb52448bdde93464d7b79601514508cacde65b60"
+  },
+  "note": "Synthetic demonstration. Identical inputs reproduce identical output hashes."
+}

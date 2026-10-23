@@ -1,0 +1,3 @@
+current_offer,alternative_offer,share,annual_cost_difference_sar,one_time_cost_sar,recurring_cost_sar,switching_npv_sar,payback_years,avoided_t_per_year,annual_cost_per_t_sar,discounted_lifetime_cost_per_t_sar,breakeven_alternative_annual_cost_sar,discount_rate,horizon_years,note
+OF-A-L1,OF-D-L1,1,20000,30000,0,-184434.698584,,40,500,597.128431,296114.862751,0.05,10,
+OF-A-L1,OF-E-L1,1,-10000,25000,0,52217.349292,2.5,50,-200,-135.247713,296762.385626,0.05,10,

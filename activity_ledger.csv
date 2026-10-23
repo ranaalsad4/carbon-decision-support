@@ -1,0 +1,9 @@
+basis,offer_id,supplier_id,lane_id,tonne_km,ef_current,ef_basis,efficiency_rate,switch_share,ef_alternative,baseline_t,efficiency_only_t,switching_only_t,combined_t,status,notes
+decision,OF-A-L1,SUP-CARR-A,L1,1000000,0.12,Unverified - documented,0.15,1,0.08,120,102,80,68,quantified,OVERLAP: efficiency and switching act on the same activity; combined computed jointly
+decision,OF-A-L3,SUP-CARR-A,L3,200000,0.10163,Proxy (FAC-FRT-ROAD-01),0.15,0,,20.326,17.2771,20.326,17.2771,quantified,
+decision,OF-B-L4,SUP-CARR-B,L4,,,Missing,0,0,,,,,,"UNAVAILABLE - missing activity or factor (not zero, not added to the ledger totals)",
+decision,OF-C-L2,SUP-CARR-C,L2,700000,0.10163,Proxy (FAC-FRT-ROAD-01),0.15,0,,71.141,60.46985,71.141,60.46985,quantified,
+inventory,OF-A-L1,SUP-CARR-A,L1,1000000,0.10163,inventory proxy FAC-FRT-ROAD-01,0.15,1,0.08,101.63,86.3855,80,68,quantified,OVERLAP: efficiency and switching act on the same activity; combined computed jointly
+inventory,OF-A-L3,SUP-CARR-A,L3,200000,0.10163,inventory proxy FAC-FRT-ROAD-01,0.15,0,,20.326,17.2771,20.326,17.2771,quantified,
+inventory,OF-B-L4,SUP-CARR-B,L4,,,n/a,0,0,,,,,,"UNAVAILABLE - missing activity or factor (not zero, not added to the ledger totals)",
+inventory,OF-C-L2,SUP-CARR-C,L2,700000,0.10163,inventory proxy FAC-FRT-ROAD-01,0.15,0,,71.141,60.46985,71.141,60.46985,quantified,

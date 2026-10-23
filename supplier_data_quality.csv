@@ -1,0 +1,6 @@
+supplier_id,Completeness,Temporal representativeness,Geographic representativeness,Technological representativeness,Methodological consistency,Evidence and provenance,Verification status,score_0_100,usable_estimate,note
+SUP-CARR-A,High,High,High,Medium,Medium,Medium,Low,71.428571,True,Unverified but documented estimate: usable with its uncertainty (never treated as zero)
+SUP-CARR-B,Missing,Missing,Low,Missing,Missing,Missing,Missing,2.857143,False,No usable emissions estimate: emissions UNAVAILABLE (not zero)
+SUP-CARR-C,High,Medium,Low,Low,Medium,Medium,Low,48.571429,True,Unverified but documented estimate: usable with its uncertainty (never treated as zero)
+ALT-D,Low,Medium,Medium,Medium,Medium,Low,Low,42.857143,True,Unverified but documented estimate: usable with its uncertainty (never treated as zero)
+ALT-E,Low,Medium,Medium,Medium,Medium,Low,Low,42.857143,True,Unverified but documented estimate: usable with its uncertainty (never treated as zero)

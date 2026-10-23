@@ -1,0 +1,16 @@
+variable,low_top,base_top,high_top,reversal,result,top_offer
+alternative_ef,OF-D-L1,OF-D-L1,OF-D-L1,False,no ranking reversal within the tested range,
+alternative_annual_cost,OF-D-L1,OF-D-L1,OF-D-L1,False,no ranking reversal within the tested range,
+switching_cost,OF-D-L1,OF-D-L1,OF-D-L1,False,no ranking reversal within the tested range,
+alternative_on_time,OF-D-L1,OF-D-L1,OF-D-L1,False,no ranking reversal within the tested range,
+current_ef,OF-D-L1,OF-D-L1,OF-D-L1,False,no ranking reversal within the tested range,
+weight carbon_performance -10 pp,,,,False,no reversal,OF-D-L1
+weight carbon_performance +10 pp,,,,False,no reversal,OF-D-L1
+weight total_lifecycle_cost -10 pp,,,,False,no reversal,OF-D-L1
+weight total_lifecycle_cost +10 pp,,,,False,no reversal,OF-D-L1
+weight operational_reliability -10 pp,,,,False,no reversal,OF-D-L1
+weight operational_reliability +10 pp,,,,False,no reversal,OF-D-L1
+weight data_quality_transparency -10 pp,,,,False,no reversal,OF-D-L1
+weight data_quality_transparency +10 pp,,,,False,no reversal,OF-D-L1
+weight improvement_capability -10 pp,,,,False,no reversal,OF-D-L1
+weight improvement_capability +10 pp,,,,False,no reversal,OF-D-L1
