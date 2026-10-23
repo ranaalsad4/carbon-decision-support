@@ -1,0 +1,13 @@
+case_id,level,key,expected_emissions_t,expected_unit,hand_calculation
+CT-01,record,ACT-DSL-202501,19.16316,tCO2e,7200 L x 2.66155 kg CO2e/L / 1000
+CT-02,record,ACT-ELE-202507,442.75,tCO2e,805 MWh x 550 kg CO2e/MWh / 1000
+CT-03,record,ACT-FRT-A-202511,11.1793,tCO2e,110000 tonne-km x 0.10163 kg CO2e/tonne-km / 1000
+CT-04,record,ACT-FRT-C-202501,5.58965,tCO2e,55000 tonne-km x 0.10163 kg CO2e/tonne-km / 1000
+CT-05,record,ACT-FRT-B-202501,UNAVAILABLE,tCO2e,quantity NULL - not calculated and not zero
+CT-06,source,Diesel generators,266.155,tCO2e,100000 L x 2.66155 / 1000
+CT-07,source,Grid electricity,4400,tCO2e,8000 MWh x 550 / 1000
+CT-08,source,Freight - Contractor A,121.956,tCO2e,1200000 tonne-km x 0.10163 / 1000
+CT-09,source,Freight - Contractor B,UNAVAILABLE,tCO2e,12 of 12 records missing
+CT-10,source,Freight - Contractor C,71.141,tCO2e,700000 tonne-km x 0.10163 / 1000
+CT-11,scope,3,193.097,tCO2e,121.956 + 71.141 (known-data subtotal; Contractor B excluded)
+CT-12,scope,2,4400,tCO2e,8000 MWh x 550 kg CO2e/MWh / 1000 (Scope 2 total; provisional SEC 2024 factor)
